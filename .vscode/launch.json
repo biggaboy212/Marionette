@@ -6,9 +6,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Executor R&D",
+            "name": "Marionette debugger",
             "skipFiles": ["<node_internals>/**"],
-            "program": "${workspaceFolder}/tools/server.js",
+            "program": "${workspaceFolder}/tools/debug/server.js",
             "console": "integratedTerminal"
         }
     ]

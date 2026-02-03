@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 3000
+    },
+
+    "input": "tests/breakpoints.luau",
+    "enableDebugClient": true,
+    "hotReloads": true,
+    "watchList": [
+        "tick()"
+    ]
+}
