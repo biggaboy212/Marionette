@@ -70,8 +70,6 @@ local p = 10
 debugger.halt(p == 11) -- pass true/false explicitly
 ```
 
-Building on your style—clean, documentation-driven, and focused on the developer experience—here is the updated section for your `README`.
-
 ### `debugger.watch()`
 
 Register a variable to the watch stack. Lets you see its value and modify it in a eval.
