@@ -160,7 +160,7 @@ wss.on("connection", (ws) => {
             const keys = Object.keys(stack);
 
             if (keys.length > 0) {
-              console.log(`${C.Cyan}Local Variables:${C.Reset}`);
+              console.log(`${C.Cyan}Watch Stack:${C.Reset}`);
               for (const key of keys) {
                 let val = stack[key];
                 if (typeof val === "object") val = JSON.stringify(val);
