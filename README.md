@@ -52,7 +52,7 @@ Acts as a breakpoint.
 
 - Will pause execution once reached
 - Go back to your VSCode terminal to interact:
-  - Evaluate expressions (global scope):
+  - Evaluate expressions (only can interact to the watch stack or globals):
 
     ```lua
     return getgenv().variable
