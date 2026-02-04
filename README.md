@@ -58,6 +58,12 @@ Acts as a breakpoint.
     return getgenv().variable
     ```
 
+    ```lua
+    -- local var = 10
+    -- debugger.watch("score", function(val) return debugger.check(score, val) end))
+    var = 20; return var -- 20
+    ```
+
   - Type `continue` to resume
 
 #### Arguments
