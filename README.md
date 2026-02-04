@@ -60,7 +60,7 @@ Acts as a breakpoint.
 
     ```lua
     -- local var = 10
-    -- debugger.watch("score", function(val) return debugger.check(score, val) end))
+    -- debugger.watch("var", function(val) return debugger.check(score, val) end))
     var = 20; return var -- 20
     ```
 
